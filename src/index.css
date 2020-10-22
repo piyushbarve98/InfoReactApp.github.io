@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Open+Sans&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-color: rgb(36, 35, 35);
+  font-family: 'Open Sans', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app{
+  display: flex;
+  
+  width: 100%;
+  /* justify-content: center; */
+  /* align-items: center;  */
+  flex-direction: column;
+}
+
+.allPanels{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  
+  
+}
+.formDiv{
+  display: flex;
+  justify-content: center;
+}
+.addForm{
+  display: flex;
+  flex-direction: column;
+  
+  padding: 2rem 3rem;
+  
+  align-items: center;
+  
+
+}
+.first p{
+  margin-bottom: 1rem;
+  
+}
+.addForm input{
+  margin-bottom: 0.6rem;
+  font-size: 0.8em;
+  padding-right: 2rem ;
+}
+h1{
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Carter One', cursive;
+}
+.first{
+  margin: 2rem;
+  padding: 2rem 3rem;
+  height: 13rem;
+  flex-basis: 16rem;
+  
+
+}
+label{
+  font-size: 1em;
+  
+}
+.button{
+  font-size: 0.9em;
+}
